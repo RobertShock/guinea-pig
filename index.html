@@ -18,9 +18,9 @@
   <article>
     <section class="article-section">Introduction</section>
     <section class="article-section">Body</section>
-    <section class="article-section">Section 1</section>
+    <div id="sectionOne"><section class="article-section">Section 1</section></div>
     <section class="article-section">Section 2</section>
-    <section class="article-section">Section 3</section>
+    <div id="sectionThree"><section class="article-section">Section 3</section></div>
     <section class="article-section">Conclusion</section>
   </article>
 
@@ -29,18 +29,20 @@
   <div id="output-target"></div>
 
   <div id="guinea-pig">Leave me alone</div>
-  <button id="add-color" onclick="myFunction()">Add color</button>
-  <button id="make-large">Hulkify</button>
-  <button id="add-border">Capture it</button>
-  <button id="add-rounding">Rounded</button>
+  <div class="buttons">
+    <button id="add-color" onclick="blueText()">Add color</button><br>
+    <button id="make-large" onclick="bigText()">Hulkify</button><br>
+    <button id="add-border" onclick="border()">Capture it</button><br>
+    <button id="add-rounding" onclick="roundCorners()">Rounded</button><br>
+  </div>
   <script type="text/javascript" src="events.js"></script>
   </body>
 </html>
 
 
 
-<html>
-<head>
+
+
 
 
 

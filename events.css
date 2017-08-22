@@ -1,0 +1,13 @@
+#sectionOne {
+	font-weight: bold;
+}
+
+#sectionThree {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#buttons {
+    display: block;
+}
+
