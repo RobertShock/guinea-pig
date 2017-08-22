@@ -31,7 +31,19 @@ keypressInput.addEventListener('keypress', function(){
 	outputTarget.innerHTML = keypressInput.value;
 })
 
-
-function myFunction() {
+function blueText() {
     document.getElementById("output-target").style.color = "blue";
 }
+
+function bigText() {
+    document.getElementById("output-target").style.font = "80px verdana";
+}
+
+function border() {
+	document.getElementById("output-target").style.border = "5px solid hotpink";
+}
+
+function roundCorners() {
+	document.getElementById("output-target").style.border = "radius 5px";
+}
+
