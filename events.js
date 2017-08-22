@@ -32,6 +32,6 @@ keypressInput.addEventListener('keypress', function(){
 })
 
 
-function myFunction(){
-	document.getElementById('add-color').style.color = blue;
+function myFunction() {
+    document.getElementById("output-target").style.color = "blue";
 }
