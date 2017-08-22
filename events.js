@@ -5,6 +5,7 @@ let pageHeader = document.getElementById('page-header');
 let pageTitleH1 = document.getElementById('page-title');
 let keypressInput = document.getElementById('keypress-input');
 let articleSection = document.getElementById('article-section');
+let addColor = document.getElementById('add-color');
 
 
 function sectionEvents(target) {
@@ -31,5 +32,6 @@ keypressInput.addEventListener('keypress', function(){
 })
 
 
-
-
+function myFunction(){
+	document.getElementById('add-color').style.color = blue;
+}
