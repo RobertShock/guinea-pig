@@ -43,7 +43,4 @@ function border() {
 	document.getElementById("output-target").style.border = "5px solid hotpink";
 }
 
-function roundCorners() {
-	document.getElementById("output-target").style.border = "radius 5px";
-}
 
